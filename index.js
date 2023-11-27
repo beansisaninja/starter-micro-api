@@ -47,5 +47,6 @@ http.createServer(function (req, res) {
       </script>
    
 </body></html>');
+	    ')
     res.end();
 }).listen(process.env.PORT || 3000);
